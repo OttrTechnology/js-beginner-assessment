@@ -511,14 +511,6 @@ console.log(findOdd([1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1])); // 10
 console.log(findOdd([10])); // 10
 ```
 
-<details><summary>Solution</summary>
-
-```js
-const findOdd = arr => {
-  return arr.reduce((a, b) => a ^ b);
-};
-```
-
 ## 32. Pete, the Baker
 
 Pete likes to bake some cakes. He has some recipes and ingredients. Unfortunately he is not good in maths. Can you help him to find out, how many cakes he could bake considering his recipes?
