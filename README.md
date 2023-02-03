@@ -6,7 +6,7 @@ The first step is to go through the basics of javascript which you can learn fro
 Link: https://www.jschallenger.com/javascript-basics/variables/introduction
 
 Challenges:
-In order to complete all the tasks, first write the psuedo code and then write the program.
+In order to complete all the tasks, first write the psuedo code and then write the program(optional).
 
 ## 1. Returning Strings
 
