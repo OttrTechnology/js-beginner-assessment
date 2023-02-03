@@ -544,18 +544,6 @@ console.log(count('')); // {}
 console.log(count('aba')); // { a: 2, b: 1 }
 ```
 
-<details><summary>Solution</summary>
-
-```js
-const count = string => {
-  const frequency = {};
-  for (const char of string) {
-    frequency[char] = (frequency[char] || 0) + 1;
-  }
-  return frequency;
-};
-```
-
 ## 34. Roman Numerals Encoder
 
 Create a function that takes a positive integer less than `4,000` as its input and returns a string containing the Roman numeral representation of that integer. Modern Roman numerals are written by expressing each digit separately starting with the leftmost digit and skipping any digit with a value of zero. There can't be more than 3 identical symbols in a row. More about Roman numerals: [http://en.wikipedia.org/wiki/Roman_numerals](http://en.wikipedia.org/wiki/Roman_numerals)
